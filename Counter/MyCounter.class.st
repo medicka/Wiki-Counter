@@ -22,7 +22,7 @@ MyCounter >> increment [
 { #category : #initialization }
 MyCounter >> init [
 	"Setting variables to some defult values. For example 0."
-	self value: 0
+	value := 0
 			
 
 ]
